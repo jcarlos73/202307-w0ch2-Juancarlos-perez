@@ -24,3 +24,9 @@ const createDeck = () => {
   }
   return deck;
 };
+
+const getRandomCard = (deck) => {
+  const randomCard = deck[Math.floor(Math.random() * deck.length)];
+  console.log(`The random card is ${randomCard}`);
+  return randomCard;
+};
