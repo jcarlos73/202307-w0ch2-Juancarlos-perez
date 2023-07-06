@@ -30,3 +30,6 @@ const getRandomCard = (deck) => {
   console.log(`The random card is ${randomCard}`);
   return randomCard;
 };
+
+const deck = createDeck();
+const randomCard = getRandomCard(deck);
