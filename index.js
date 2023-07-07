@@ -33,3 +33,11 @@ const getRandomCard = (deck) => {
 
 const deck = createDeck();
 const randomCard = getRandomCard(deck);
+
+const buttonContainerElement = document.querySelector(".start-game");
+const gameContainerElement = document.querySelector(".container-game");
+const startButtonElement = document.querySelector(".go-button");
+startButtonElement.addEventListener("click", () => {
+  buttonContainerElement.classList.add("hidden");
+  gameContainerElement.classList.remove("hidden");
+});
