@@ -35,9 +35,13 @@ const deck = createDeck();
 const randomCard = getRandomCard(deck);
 
 const buttonContainerElement = document.querySelector(".start-game");
-const gameContainerElement = document.querySelector(".container-game");
 const startButtonElement = document.querySelector(".go-button");
+const gameContainerElement = document.querySelector(".container-game");
 startButtonElement.addEventListener("click", () => {
   buttonContainerElement.classList.add("hidden");
   gameContainerElement.classList.remove("hidden");
 });
+
+const downButtonElement = document.querySelector("down-button");
+const upButtonElement = document.querySelector("up-button");
+greaterButton = () => {};
