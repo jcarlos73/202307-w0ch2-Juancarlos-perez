@@ -53,7 +53,7 @@ h1 {
 
 .cards {
   display: flex;
-  gap: 60px;
+  gap: 40px;
 }
 .card1 {
   border: 2px solid #000;
